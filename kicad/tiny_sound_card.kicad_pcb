@@ -37,15 +37,15 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
     (segment_width 0.2)
     (edge_width 0.15)
-    (via_size 0.6)
-    (via_drill 0.4)
+    (via_size 0.7)
+    (via_drill 0.3)
     (via_min_size 0.4)
     (via_min_drill 0.3)
     (uvia_size 0.3)
@@ -139,9 +139,9 @@
 
   (net_class Default "これは標準のネット クラスです。"
     (clearance 0.2)
-    (trace_width 0.25)
-    (via_dia 0.6)
-    (via_drill 0.4)
+    (trace_width 0.2)
+    (via_dia 0.7)
+    (via_drill 0.3)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net /A0)
