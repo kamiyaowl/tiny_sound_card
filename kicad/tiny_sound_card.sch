@@ -203,16 +203,16 @@ Wire Wire Line
 $Comp
 L VCC #PWR04
 U 1 1 5B793B69
-P 2150 1400
-F 0 "#PWR04" H 2150 1250 50  0001 C CNN
-F 1 "VCC" H 2150 1550 50  0000 C CNN
-F 2 "" H 2150 1400 50  0000 C CNN
-F 3 "" H 2150 1400 50  0000 C CNN
-	1    2150 1400
+P 2550 1400
+F 0 "#PWR04" H 2550 1250 50  0001 C CNN
+F 1 "VCC" H 2550 1550 50  0000 C CNN
+F 2 "" H 2550 1400 50  0000 C CNN
+F 3 "" H 2550 1400 50  0000 C CNN
+	1    2550 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1650 2150 1700
+	2150 1400 2150 1700
 $Comp
 L CONN_01X03 P1
 U 1 1 5B793BFC
@@ -238,16 +238,16 @@ $EndComp
 $Comp
 L F_Small F1
 U 1 1 5B79423D
-P 2150 1550
-F 0 "F1" H 2110 1610 50  0000 L CNN
-F 1 "MAX:50mA" H 1950 1450 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2150 1550 50  0001 C CNN
-F 3 "" H 2150 1550 50  0000 C CNN
-	1    2150 1550
-	0    1    1    0   
+P 2350 1400
+F 0 "F1" H 2310 1460 50  0000 L CNN
+F 1 "MAX:50mA" H 2150 1300 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2350 1400 50  0001 C CNN
+F 3 "" H 2350 1400 50  0000 C CNN
+	1    2350 1400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1400 2150 1450
+	2550 1400 2450 1400
 $Comp
 L VCC #PWR06
 U 1 1 5B794B6A
@@ -349,9 +349,9 @@ Wire Wire Line
 	3450 4100 3950 4100
 Wire Wire Line
 	4250 4100 4300 4100
-Text Label 3950 5400 0    60   ~ 0
+Text Label 3700 3700 0    60   ~ 0
 ATMEGA_TX
-Text Label 3950 5500 0    60   ~ 0
+Text Label 3600 4450 0    60   ~ 0
 ATMEGA_RX
 $Comp
 L GND #PWR010
@@ -411,9 +411,7 @@ NoConn ~ 6500 5900
 NoConn ~ 6500 6000
 NoConn ~ 6500 6100
 NoConn ~ 6500 6200
-Wire Wire Line
-	4650 5700 4650 5600
-Text Label 3950 5600 0    60   ~ 0
+Text Label 3600 4550 0    60   ~ 0
 ~BUSY
 $Comp
 L CONN_01X02 P2
@@ -424,7 +422,7 @@ F 1 "SPKOUT" V 7200 5600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7100 5600 50  0001 C CNN
 F 3 "" H 7100 5600 50  0000 C CNN
 	1    7100 5600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6500 5550 6900 5550
@@ -464,14 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 5900 5050 6000
 Connection ~ 4800 5900
-Wire Wire Line
-	3450 5500 5300 5500
-Wire Wire Line
-	3450 5400 5300 5400
-Wire Wire Line
-	4650 5700 5300 5700
-Wire Wire Line
-	4650 5600 3450 5600
 $Comp
 L TRS_JACK J1
 U 1 1 5B79D757
@@ -852,13 +842,13 @@ Text Label 9050 1850 0    60   ~ 0
 BTN2
 Text Label 10150 1850 0    60   ~ 0
 BTN3
-Text Label 3600 4450 0    60   ~ 0
+Text Label 3650 5700 0    60   ~ 0
 BTN0
-Text Label 3600 4550 0    60   ~ 0
+Text Label 3650 5800 0    60   ~ 0
 BTN1
-Text Label 3600 4650 0    60   ~ 0
+Text Label 3650 5900 0    60   ~ 0
 BTN2
-Text Label 3600 4750 0    60   ~ 0
+Text Label 3700 3600 0    60   ~ 0
 BTN3
 Wire Wire Line
 	3600 4450 3450 4450
@@ -880,7 +870,7 @@ Text Label 8800 5500 2    60   ~ 0
 SDA
 Text Label 8800 5600 2    60   ~ 0
 SCL
-Text Label 3650 5700 0    60   ~ 0
+Text Label 3650 5600 0    60   ~ 0
 SW0
 Wire Wire Line
 	3650 5700 3450 5700
@@ -1034,10 +1024,6 @@ Wire Wire Line
 	4450 2900 5050 2900
 Wire Wire Line
 	4800 2900 4800 2950
-Wire Wire Line
-	4450 2900 4450 3600
-Wire Wire Line
-	4450 3600 3450 3600
 Connection ~ 4800 2900
 $Comp
 L GND #PWR025
@@ -1071,9 +1057,7 @@ Wire Wire Line
 	6250 5000 4800 5000
 Connection ~ 4800 5200
 Wire Wire Line
-	5900 2900 6000 2900
-Wire Wire Line
-	6000 2650 6000 3700
+	5900 2900 6650 2900
 $Comp
 L VCC #PWR026
 U 1 1 5B79B75D
@@ -1087,8 +1071,6 @@ F 3 "" H 6000 2300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6000 2300 6000 2350
-Wire Wire Line
-	6000 3700 3450 3700
 Connection ~ 6000 2900
 Wire Wire Line
 	4800 3250 4800 3350
@@ -1103,9 +1085,9 @@ Text Notes 4150 2200 0    118  ~ 0
 Hi-side Switch
 Text Notes 5200 4900 0    118  ~ 0
 mp3 Player
-Text Label 3650 5800 0    60   ~ 0
+Text Label 2650 6650 0    60   ~ 0
 EXT_SW0
-Text Label 3650 5900 0    60   ~ 0
+Text Label 2650 6750 0    60   ~ 0
 EXT_SW1
 Text Label 8450 3450 0    60   ~ 0
 EXT_SW1
@@ -1378,4 +1360,48 @@ Wire Wire Line
 	10100 5750 10400 5750
 Connection ~ 1200 3600
 Connection ~ 1200 3900
+Wire Wire Line
+	2250 1400 2150 1400
+Text Label 1600 1700 0    60   ~ 0
+EXT_VCC
+Text Label 2650 1700 2    60   ~ 0
+CONN_VCC
+Text Label 2150 1700 1    60   ~ 0
+SEL_VCC
+Text Label 6100 2750 0    60   ~ 0
+DFR_VCC
+Text Label 6550 5250 0    60   ~ 0
+DAC_L
+Text Label 6550 5350 0    60   ~ 0
+DAC_R
+Text Label 6550 5550 0    60   ~ 0
+SPK1
+Text Label 6550 5650 0    60   ~ 0
+SPK2
+Wire Wire Line
+	3450 3600 3700 3600
+Wire Wire Line
+	3450 3700 3700 3700
+Wire Wire Line
+	6000 2900 6000 2650
+Text Label 4450 2900 0    60   ~ 0
+DFR_EN
+Text Label 6650 2900 2    60   ~ 0
+DFR_FAULT
+Text Label 3600 4650 0    60   ~ 0
+DFR_EN
+Wire Wire Line
+	3450 5400 3650 5400
+Wire Wire Line
+	3450 5500 3650 5500
+Wire Wire Line
+	3450 5600 3650 5600
+Text Label 5300 5400 2    60   ~ 0
+ATMEGA_TX
+Text Label 5300 5500 2    60   ~ 0
+ATMEGA_RX
+Text Label 5300 5700 2    60   ~ 0
+~BUSY
+Text Label 3600 4750 0    60   ~ 0
+DFR_FAULT
 $EndSCHEMATC
