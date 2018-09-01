@@ -49,6 +49,37 @@ A5 | PinHeader | I2C SCL | 外部モジュール接続用I2C
 
 準備予定
 
+## 製造ファイル
+
+
+| ファイルパス | 種別 |
+| --- | --- |
+`kicad/gerber` | 基盤製造ファイル
+`kicad/acrylic_cover/tiny_sound_card-Eco1.User.svg` | 表面アクリルカバー
+`kicad/acrylic_cover/tiny_sound_card-Eco2.User.svg` | 裏面アクリルカバー
+
+## 購入部品
+
+| 参照記号                              | 購入先           | 数量 | URL                                                                |
+|-----------------------------------|---------------|----|--------------------------------------------------------------------|
+| U1                                | RS Components | 1  | https://jp.rs-online.com/web/p/intelligent-power-switches/8805406/ |
+| R7,R9,R10,R11,R12,R13             | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gR-25473/                       |
+| R2,R3,R6                          | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gR-25103/                       |
+| R1,R4                             | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gR-25102/                       |
+| CP1                               | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-10596/                       |
+| SW1,SW5                           | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-08789/                       |
+| Y1                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-08671/                       |
+| C4,C5                             | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-04060/                       |
+| SW2,SW3,SW4,SW6                   | 秋月            | 4  | http://akizukidenshi.com/catalog/g/gP-03647/                       |
+| F1                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-00777/                       |
+| C1,C2,C3,C6,C7,C9,C10,C11,C12,C13 | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gP-00090/                       |
+| M1                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gM-12544/                       |
+| D1                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gI-11578/                       |
+| IC1                               | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gI-04386/                       |
+| J1                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gC-02460/                       |
+| P2                                | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gC-01627/                       |
+| CON1                              | 秋月            | 1  | http://akizukidenshi.com/catalog/g/gC-00077/                       |
+
 ## License
 
 MIT

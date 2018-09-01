@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 50.924999 60.924999 142.075001 116.075001)
+    (area 28.000002 48.15 144.375001 119.825)
     (thickness 1.6)
     (drawings 97)
     (tracks 883)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory production))
+      (outputdirectory acrylic_cover))
   )
 
   (net 0 "")
